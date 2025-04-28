@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
-import torch
 import copy
-                
+import torch.nn as nn
+    
 
 
 
@@ -44,6 +44,8 @@ class LLMLayerImportance:
         # Initialize layer mask attributes
         self.layer_masks = None
         
+
+
     def get_dataloader(self, path, name=None, split="validation", batch_size=8, shuffle=False):
         """
         Create a dataloader for evaluating layer importance.
@@ -72,6 +74,8 @@ class LLMLayerImportance:
         dataset.set_format(type="torch", columns=["input_ids", "attention_mask", "labels"])
         return DataLoader(dataset, batch_size=batch_size, shuffle=shuffle)
     
+
+
     def _preprocess_dataset(self, path, dataset):
         """
         Preprocess different datasets based on their type.
@@ -98,7 +102,9 @@ class LLMLayerImportance:
             return self._preprocess_imdb(dataset)
         else:
             raise ValueError(f"Preprocessing for dataset {path} is not implemented.")
-            
+
+
+
     def _preprocess_wikitext(self, dataset):
         """Preprocess WikiText dataset for language modeling"""
         def preprocess(batch):
@@ -109,6 +115,8 @@ class LLMLayerImportance:
             
         return dataset.map(preprocess, batched=True, remove_columns=["text"])
     
+
+
     def _preprocess_glue(self, dataset):
         """Preprocess GLUE dataset for classification"""
         def preprocess(batch):
@@ -126,6 +134,8 @@ class LLMLayerImportance:
         cols_to_remove = [col for col in dataset.column_names if col not in ["label"]]
         return dataset.map(preprocess, batched=True, remove_columns=cols_to_remove)
     
+
+
     def _preprocess_webtext(self, dataset):
         """Preprocess WebText dataset for language modeling"""
         def preprocess(batch):
@@ -136,6 +146,8 @@ class LLMLayerImportance:
             
         return dataset.map(preprocess, batched=True, remove_columns=["text"])
     
+
+
     def _preprocess_imdb(self, dataset):
         """Preprocess IMDB dataset for sentiment classification"""
         def preprocess(batch):
@@ -146,6 +158,11 @@ class LLMLayerImportance:
             
         return dataset.map(preprocess, batched=True, remove_columns=["text"])
     
+
+
+
+
+
     def compute_layer_importance(self, dataloader, layer_mask=None, num_batches=50):
         """
         Compute importance scores for layers in the LLM by measuring their influence on model predictions.
@@ -168,9 +185,7 @@ class LLMLayerImportance:
         torch.Tensor
             Normalized importance scores for each layer of shape (num_layers,)
         """
-        import torch
-        import torch.nn as nn
-        
+
         self.model.eval()
         
         # Initialize layer masks if not provided
@@ -198,25 +213,24 @@ class LLMLayerImportance:
             return hook
         
         # Attach hooks to transformer layers
-        for i in range(self.num_layers):
-            if hasattr(self.model, "transformer"):
-                # GPT-2 style models
-                layer = self.model.transformer.h[i]
-            elif hasattr(self.model, "model"):
-                # Some models have nested structure
-                if hasattr(self.model.model, "layers"):
-                    layer = self.model.model.layers[i]
-                else:
-                    layer = self.model.model.decoder.layers[i]
-            elif hasattr(self.model, "decoder"):
-                # Decoder-only models
-                layer = self.model.decoder.layers[i]
-            elif hasattr(self.model, "layers"):
-                # Direct layers attribute
-                layer = self.model.layers[i]
-            else:
-                raise ValueError(f"Unsupported model architecture: {type(self.model)}")
-                
+        if hasattr(self.model, "transformer") and hasattr(self.model.transformer, "h"):
+            layers = self.model.transformer.h  # GPT-2 style
+        elif hasattr(self.model, "model") and hasattr(self.model.model, "layers"):
+            layers = self.model.model.layers
+        elif hasattr(self.model, "model") and hasattr(self.model.model, "decoder"):
+            layers = self.model.model.decoder.layers
+        elif hasattr(self.model, "decoder"):
+            layers = self.model.decoder.layers
+        elif hasattr(self.model, "layers"):
+            layers = self.model.layers
+        else:
+            raise ValueError(f"Unsupported model architecture: {type(self.model)}")
+
+        # Update num_layers just in case it was wrong
+        self.num_layers = len(layers)
+
+        # Register hooks safely
+        for i, layer in enumerate(layers):
             hook = layer.register_forward_hook(get_layer_hook(i))
             hooks.append(hook)
         
@@ -261,7 +275,12 @@ class LLMLayerImportance:
             layer_importance = layer_importance / max_importance
         
         return layer_importance
-    
+
+
+
+
+
+
     def visualize_layer_importance(self, layer_importance, save_path="layer_importance.png"):
         """
         Visualize layer importance scores as a bar chart.
@@ -296,6 +315,9 @@ class LLMLayerImportance:
         plt.tight_layout()
         plt.savefig(save_path)
         plt.close()
+        
+
+
         
     def prune_layers(self, layer_importance, pruning_ratio=0.3):
         """

@@ -1,0 +1,407 @@
+Model Name: microsoft/phi-2
+Quantization Config: None
+Model Size After Quantization: 10603.65 MB
+
+Example 0:
+  Perplexity: 3.3274
+  Time Taken (s): 1.2377
+
+Example 1:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0433
+
+Example 2:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0433
+
+Example 3:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0427
+
+Example 4:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0432
+
+Example 5:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0438
+
+Example 6:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0443
+
+Example 7:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0430
+
+Example 8:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0426
+
+Example 9:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0424
+
+Example 10:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0443
+
+Example 11:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0445
+
+Example 12:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0421
+
+Example 13:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0431
+
+Example 14:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0425
+
+Example 15:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0428
+
+Example 16:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0432
+
+Example 17:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0572
+
+Example 18:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0440
+
+Example 19:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0435
+
+Example 20:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0454
+
+Example 21:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0469
+
+Example 22:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0440
+
+Example 23:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0439
+
+Example 24:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0423
+
+Example 25:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0434
+
+Example 26:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0435
+
+Example 27:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0420
+
+Example 28:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0450
+
+Example 29:
+  Perplexity: 3.3274
+  Time Taken (s): 0.0460
+
+Example 30:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0458
+
+Example 31:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0462
+
+Example 32:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0474
+
+Example 33:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0424
+
+Example 34:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0423
+
+Example 35:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0430
+
+Example 36:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0428
+
+Example 37:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0452
+
+Example 38:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0446
+
+Example 39:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0425
+
+Example 40:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0568
+
+Example 41:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0432
+
+Example 42:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0446
+
+Example 43:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0435
+
+Example 44:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0444
+
+Example 45:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0457
+
+Example 46:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0428
+
+Example 47:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0429
+
+Example 48:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0448
+
+Example 49:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0441
+
+Example 50:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0424
+
+Example 51:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0435
+
+Example 52:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0426
+
+Example 53:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0434
+
+Example 54:
+  Perplexity: 4.9631
+  Time Taken (s): 0.0444
+
+Example 55:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0642
+
+Example 56:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0433
+
+Example 57:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0434
+
+Example 58:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0432
+
+Example 59:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0431
+
+Example 60:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0435
+
+Example 61:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0424
+
+Example 62:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0419
+
+Example 63:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0454
+
+Example 64:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0428
+
+Example 65:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0428
+
+Example 66:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0426
+
+Example 67:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0435
+
+Example 68:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0429
+
+Example 69:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0422
+
+Example 70:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0444
+
+Example 71:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0425
+
+Example 72:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0434
+
+Example 73:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0429
+
+Example 74:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0425
+
+Example 75:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0428
+
+Example 76:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0425
+
+Example 77:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0429
+
+Example 78:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0427
+
+Example 79:
+  Perplexity: 8.2459
+  Time Taken (s): 0.0426
+
+Example 80:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0435
+
+Example 81:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0416
+
+Example 82:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0433
+
+Example 83:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0429
+
+Example 84:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0427
+
+Example 85:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0447
+
+Example 86:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0413
+
+Example 87:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0424
+
+Example 88:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0436
+
+Example 89:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0426
+
+Example 90:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0421
+
+Example 91:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0428
+
+Example 92:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0450
+
+Example 93:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0426
+
+Example 94:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0436
+
+Example 95:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0436
+
+Example 96:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0434
+
+Example 97:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0453
+
+Example 98:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0426
+
+Example 99:
+  Perplexity: 6.1054
+  Time Taken (s): 0.0422
+
+Total Examples: 100
+Total Time (s): 5.5850
+Average Time per Example (s): 0.0559
