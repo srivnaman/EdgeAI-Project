@@ -1,0 +1,85 @@
+{
+  "4bit": {
+    "evaluation_metrics": {
+      "perplexity": 36.626783844565296,
+      "perplexity_time": 0.3282918930053711,
+      "bleu_score": 0.06428216024520217,
+      "generation_time": 0.5989229679107666,
+      "model_size_mb": 115.85009765625
+    },
+    "layerwise_importance": {
+      "0": {
+        "delta_loss": 2.987866163253784,
+        "delta_perplexity": 690.1692903824219,
+        "ablated_loss": 6.588645935058594,
+        "ablated_perplexity": 726.7960742269871
+      },
+      "1": {
+        "delta_loss": 3.857835054397583,
+        "delta_perplexity": 1698.1166873020588,
+        "ablated_loss": 7.458614826202393,
+        "ablated_perplexity": 1734.7434711466242
+      },
+      "2": {
+        "delta_loss": 10.549714803695679,
+        "delta_perplexity": 1397881.4160855843,
+        "ablated_loss": 14.150494575500488,
+        "ablated_perplexity": 1397918.0428694289
+      },
+      "3": {
+        "delta_loss": 9.269061803817749,
+        "delta_perplexity": 388383.0113033153,
+        "ablated_loss": 12.869841575622559,
+        "ablated_perplexity": 388419.63808715984
+      },
+      "4": {
+        "delta_loss": 10.651935338973999,
+        "delta_perplexity": 1548336.141889091,
+        "ablated_loss": 14.252715110778809,
+        "ablated_perplexity": 1548372.7686729357
+      },
+      "5": {
+        "delta_loss": 4.264617204666138,
+        "delta_perplexity": 2568.9177761145006,
+        "ablated_loss": 7.865396976470947,
+        "ablated_perplexity": 2605.5445599590657
+      },
+      "6": {
+        "delta_loss": 7.420881032943726,
+        "delta_perplexity": 61148.58518147818,
+        "ablated_loss": 11.021660804748535,
+        "ablated_perplexity": 61185.21196532274
+      },
+      "7": {
+        "delta_loss": 4.209401369094849,
+        "delta_perplexity": 2428.950227831237,
+        "ablated_loss": 7.810181140899658,
+        "ablated_perplexity": 2465.577011675802
+      },
+      "8": {
+        "delta_loss": 8.415798902511597,
+        "delta_perplexity": 165438.9142093028,
+        "ablated_loss": 12.016578674316406,
+        "ablated_perplexity": 165475.54099314738
+      },
+      "9": {
+        "delta_loss": 5.744360685348511,
+        "delta_perplexity": 11406.45318968073,
+        "ablated_loss": 9.34514045715332,
+        "ablated_perplexity": 11443.079973525295
+      },
+      "10": {
+        "delta_loss": 4.611004590988159,
+        "delta_perplexity": 3647.483610408501,
+        "ablated_loss": 8.211784362792969,
+        "ablated_perplexity": 3684.1103942530663
+      },
+      "11": {
+        "delta_loss": 3.5426833629608154,
+        "delta_perplexity": 1229.1776748481182,
+        "ablated_loss": 7.143463134765625,
+        "ablated_perplexity": 1265.8044586926835
+      }
+    }
+  }
+}

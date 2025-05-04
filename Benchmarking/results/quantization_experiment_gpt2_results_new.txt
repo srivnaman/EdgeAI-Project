@@ -1,0 +1,11 @@
+{
+  "Model : gpt2 | Dataset : squad | Quantaization : baseline": {
+    "evaluation_metrics": {
+      "Dataset": "squad",
+      "model_size_mb": 474.7001953125,
+      "Average_generation_time": 0.005437116614541955,
+      "Average_bleu_score": 2.2474858003662786e-05,
+      "Average_perplexity": 3.685008249405932
+    }
+  }
+}

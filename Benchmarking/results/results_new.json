@@ -1,0 +1,11 @@
+{
+  "Model : distilgpt2 | Dataset : squad | Quantaization : 8bit": {
+    "evaluation_metrics": {
+      "Dataset": "squad",
+      "model_size_mb": 115.73583984375,
+      "Average_generation_time": 0.02004646497493528,
+      "Average_bleu_score": 2.395120794987479e-05,
+      "Average_perplexity": 8.41150779820061
+    }
+  }
+}

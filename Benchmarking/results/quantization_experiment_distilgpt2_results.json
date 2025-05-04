@@ -1,0 +1,443 @@
+{
+  "Dataset : \"squad\" Quantaization : \"baseline\"": {
+    "evaluation_metrics": {
+      "Dataset": "squad",
+      "perplexity": 52.520750729988265,
+      "perplexity_time": 0.004663944244384766,
+      "bleu_score": 0.10754421249521595,
+      "generation_time": 0.35831308364868164,
+      "model_size_mb": 312.4716796875,
+      "Average_perplexity": 36.72501953125
+    },
+    "layerwise_importance": {
+      "0": {
+        "delta_loss": 3.436981678009033,
+        "delta_perplexity": 1580.505260790224,
+        "ablated_loss": 7.398190021514893,
+        "ablated_perplexity": 1633.0260115202123
+      },
+      "1": {
+        "delta_loss": 5.8365678787231445,
+        "delta_perplexity": 17941.1656930914,
+        "ablated_loss": 9.797776222229004,
+        "ablated_perplexity": 17993.68644382139
+      },
+      "2": {
+        "delta_loss": 5.377547264099121,
+        "delta_perplexity": 11317.729629209527,
+        "ablated_loss": 9.33875560760498,
+        "ablated_perplexity": 11370.250379939514
+      },
+      "3": {
+        "delta_loss": 3.7406439781188965,
+        "delta_perplexity": 2159.9216027641723,
+        "ablated_loss": 7.701852321624756,
+        "ablated_perplexity": 2212.4423534941607
+      },
+      "4": {
+        "delta_loss": 5.007246971130371,
+        "delta_perplexity": 7798.943441103726,
+        "ablated_loss": 8.96845531463623,
+        "ablated_perplexity": 7851.464191833715
+      },
+      "5": {
+        "delta_loss": 2.9321751594543457,
+        "delta_perplexity": 933.2102542501107,
+        "ablated_loss": 6.893383502960205,
+        "ablated_perplexity": 985.731004980099
+      }
+    }
+  },
+  "Dataset : \"glue\" Quantaization : \"baseline\"": {
+    "evaluation_metrics": {
+      "Dataset": "glue",
+      "perplexity": 52.520750729988265,
+      "perplexity_time": 0.004770517349243164,
+      "bleu_score": 0.10754421249521595,
+      "generation_time": 0.332195520401001,
+      "model_size_mb": 312.4716796875,
+      "Average_perplexity": 42.414667366027835
+    },
+    "layerwise_importance": {
+      "0": {
+        "delta_loss": 3.436981678009033,
+        "delta_perplexity": 1580.505260790224,
+        "ablated_loss": 7.398190021514893,
+        "ablated_perplexity": 1633.0260115202123
+      },
+      "1": {
+        "delta_loss": 5.8365678787231445,
+        "delta_perplexity": 17941.1656930914,
+        "ablated_loss": 9.797776222229004,
+        "ablated_perplexity": 17993.68644382139
+      },
+      "2": {
+        "delta_loss": 5.377547264099121,
+        "delta_perplexity": 11317.729629209527,
+        "ablated_loss": 9.33875560760498,
+        "ablated_perplexity": 11370.250379939514
+      },
+      "3": {
+        "delta_loss": 3.7406439781188965,
+        "delta_perplexity": 2159.9216027641723,
+        "ablated_loss": 7.701852321624756,
+        "ablated_perplexity": 2212.4423534941607
+      },
+      "4": {
+        "delta_loss": 5.007246971130371,
+        "delta_perplexity": 7798.943441103726,
+        "ablated_loss": 8.96845531463623,
+        "ablated_perplexity": 7851.464191833715
+      },
+      "5": {
+        "delta_loss": 2.9321751594543457,
+        "delta_perplexity": 933.2102542501107,
+        "ablated_loss": 6.893383502960205,
+        "ablated_perplexity": 985.731004980099
+      }
+    }
+  },
+  "Dataset : \"wikitext\" Quantaization : \"baseline\"": {
+    "evaluation_metrics": {
+      "Dataset": "wikitext",
+      "perplexity": 52.520750729988265,
+      "perplexity_time": 0.0049517154693603516,
+      "bleu_score": 0.10754421249521595,
+      "generation_time": 0.33961963653564453,
+      "model_size_mb": 312.4716796875,
+      "Average_perplexity": 889.409956367528
+    },
+    "layerwise_importance": {
+      "0": {
+        "delta_loss": 3.436981678009033,
+        "delta_perplexity": 1580.505260790224,
+        "ablated_loss": 7.398190021514893,
+        "ablated_perplexity": 1633.0260115202123
+      },
+      "1": {
+        "delta_loss": 5.8365678787231445,
+        "delta_perplexity": 17941.1656930914,
+        "ablated_loss": 9.797776222229004,
+        "ablated_perplexity": 17993.68644382139
+      },
+      "2": {
+        "delta_loss": 5.377547264099121,
+        "delta_perplexity": 11317.729629209527,
+        "ablated_loss": 9.33875560760498,
+        "ablated_perplexity": 11370.250379939514
+      },
+      "3": {
+        "delta_loss": 3.7406439781188965,
+        "delta_perplexity": 2159.9216027641723,
+        "ablated_loss": 7.701852321624756,
+        "ablated_perplexity": 2212.4423534941607
+      },
+      "4": {
+        "delta_loss": 5.007246971130371,
+        "delta_perplexity": 7798.943441103726,
+        "ablated_loss": 8.96845531463623,
+        "ablated_perplexity": 7851.464191833715
+      },
+      "5": {
+        "delta_loss": 2.9321751594543457,
+        "delta_perplexity": 933.2102542501107,
+        "ablated_loss": 6.893383502960205,
+        "ablated_perplexity": 985.731004980099
+      }
+    }
+  },
+  "Dataset : \"squad\" Quantaization : \"8bit\"": {
+    "evaluation_metrics": {
+      "Dataset": "squad",
+      "perplexity": 56.376694487404066,
+      "perplexity_time": 0.050081729888916016,
+      "bleu_score": 0.10754421249521595,
+      "generation_time": 1.8081800937652588,
+      "model_size_mb": 115.73583984375,
+      "Average_perplexity": 37.0424312915802
+    },
+    "layerwise_importance": {
+      "0": {
+        "delta_loss": 3.3615026473999023,
+        "delta_perplexity": 1569.1034135021591,
+        "ablated_loss": 7.393558502197266,
+        "ablated_perplexity": 1625.4801079895633
+      },
+      "1": {
+        "delta_loss": 5.586963653564453,
+        "delta_perplexity": 14991.911287576735,
+        "ablated_loss": 9.619019508361816,
+        "ablated_perplexity": 15048.28798206414
+      },
+      "2": {
+        "delta_loss": 5.347784042358398,
+        "delta_perplexity": 11790.741150588987,
+        "ablated_loss": 9.379839897155762,
+        "ablated_perplexity": 11847.117845076391
+      },
+      "3": {
+        "delta_loss": 3.740722179412842,
+        "delta_perplexity": 2318.6834359097516,
+        "ablated_loss": 7.772778034210205,
+        "ablated_perplexity": 2375.0601303971557
+      },
+      "4": {
+        "delta_loss": 4.847566604614258,
+        "delta_perplexity": 7127.701248237555,
+        "ablated_loss": 8.879622459411621,
+        "ablated_perplexity": 7184.077942724959
+      },
+      "5": {
+        "delta_loss": 2.860321521759033,
+        "delta_perplexity": 928.3630392572346,
+        "ablated_loss": 6.8923773765563965,
+        "ablated_perplexity": 984.7397337446387
+      }
+    }
+  },
+  "Dataset : \"glue\" Quantaization : \"8bit\"": {
+    "evaluation_metrics": {
+      "Dataset": "glue",
+      "perplexity": 56.376694487404066,
+      "perplexity_time": 0.06579947471618652,
+      "bleu_score": 0.10754421249521595,
+      "generation_time": 1.8026607036590576,
+      "model_size_mb": 115.73583984375,
+      "Average_perplexity": 42.96175234889984
+    },
+    "layerwise_importance": {
+      "0": {
+        "delta_loss": 3.3615026473999023,
+        "delta_perplexity": 1569.1034135021591,
+        "ablated_loss": 7.393558502197266,
+        "ablated_perplexity": 1625.4801079895633
+      },
+      "1": {
+        "delta_loss": 5.586963653564453,
+        "delta_perplexity": 14991.911287576735,
+        "ablated_loss": 9.619019508361816,
+        "ablated_perplexity": 15048.28798206414
+      },
+      "2": {
+        "delta_loss": 5.347784042358398,
+        "delta_perplexity": 11790.741150588987,
+        "ablated_loss": 9.379839897155762,
+        "ablated_perplexity": 11847.117845076391
+      },
+      "3": {
+        "delta_loss": 3.740722179412842,
+        "delta_perplexity": 2318.6834359097516,
+        "ablated_loss": 7.772778034210205,
+        "ablated_perplexity": 2375.0601303971557
+      },
+      "4": {
+        "delta_loss": 4.847566604614258,
+        "delta_perplexity": 7127.701248237555,
+        "ablated_loss": 8.879622459411621,
+        "ablated_perplexity": 7184.077942724959
+      },
+      "5": {
+        "delta_loss": 2.860321521759033,
+        "delta_perplexity": 928.3630392572346,
+        "ablated_loss": 6.8923773765563965,
+        "ablated_perplexity": 984.7397337446387
+      }
+    }
+  },
+  "Dataset : \"wikitext\" Quantaization : \"8bit\"": {
+    "evaluation_metrics": {
+      "Dataset": "wikitext",
+      "perplexity": 56.376694487404066,
+      "perplexity_time": 0.043727874755859375,
+      "bleu_score": 0.10754421249521595,
+      "generation_time": 1.8428065776824951,
+      "model_size_mb": 115.73583984375,
+      "Average_perplexity": 916.3303550561023
+    },
+    "layerwise_importance": {
+      "0": {
+        "delta_loss": 3.3615026473999023,
+        "delta_perplexity": 1569.1034135021591,
+        "ablated_loss": 7.393558502197266,
+        "ablated_perplexity": 1625.4801079895633
+      },
+      "1": {
+        "delta_loss": 5.586963653564453,
+        "delta_perplexity": 14991.911287576735,
+        "ablated_loss": 9.619019508361816,
+        "ablated_perplexity": 15048.28798206414
+      },
+      "2": {
+        "delta_loss": 5.347784042358398,
+        "delta_perplexity": 11790.741150588987,
+        "ablated_loss": 9.379839897155762,
+        "ablated_perplexity": 11847.117845076391
+      },
+      "3": {
+        "delta_loss": 3.740722179412842,
+        "delta_perplexity": 2318.6834359097516,
+        "ablated_loss": 7.772778034210205,
+        "ablated_perplexity": 2375.0601303971557
+      },
+      "4": {
+        "delta_loss": 4.847566604614258,
+        "delta_perplexity": 7127.701248237555,
+        "ablated_loss": 8.879622459411621,
+        "ablated_perplexity": 7184.077942724959
+      },
+      "5": {
+        "delta_loss": 2.860321521759033,
+        "delta_perplexity": 928.3630392572346,
+        "ablated_loss": 6.8923773765563965,
+        "ablated_perplexity": 984.7397337446387
+      }
+    }
+  },
+  "Dataset : \"squad\" Quantaization : \"4bit\"": {
+    "evaluation_metrics": {
+      "Dataset": "squad",
+      "perplexity": 55.454428794329374,
+      "perplexity_time": 0.005742788314819336,
+      "bleu_score": 0.10754421249521595,
+      "generation_time": 0.3631477355957031,
+      "model_size_mb": 95.48583984375,
+      "Average_perplexity": 38.57110689353943
+    },
+    "layerwise_importance": {
+      "0": {
+        "delta_loss": 3.431014060974121,
+        "delta_perplexity": 1658.5293610833692,
+        "ablated_loss": 7.44657564163208,
+        "ablated_perplexity": 1713.9837898776984
+      },
+      "1": {
+        "delta_loss": 5.7768988609313965,
+        "delta_perplexity": 17842.835303628326,
+        "ablated_loss": 9.792460441589355,
+        "ablated_perplexity": 17898.289732422654
+      },
+      "2": {
+        "delta_loss": 5.380122661590576,
+        "delta_perplexity": 11980.86819447467,
+        "ablated_loss": 9.395684242248535,
+        "ablated_perplexity": 12036.322623269
+      },
+      "3": {
+        "delta_loss": 3.762528419494629,
+        "delta_perplexity": 2332.2555080521925,
+        "ablated_loss": 7.778090000152588,
+        "ablated_perplexity": 2387.709936846522
+      },
+      "4": {
+        "delta_loss": 4.917065143585205,
+        "delta_perplexity": 7519.682633477536,
+        "ablated_loss": 8.932626724243164,
+        "ablated_perplexity": 7575.137062271865
+      },
+      "5": {
+        "delta_loss": 2.8768157958984375,
+        "delta_perplexity": 929.2853049503093,
+        "ablated_loss": 6.8923773765563965,
+        "ablated_perplexity": 984.7397337446387
+      }
+    }
+  },
+  "Dataset : \"glue\" Quantaization : \"4bit\"": {
+    "evaluation_metrics": {
+      "Dataset": "glue",
+      "perplexity": 55.454428794329374,
+      "perplexity_time": 0.006006479263305664,
+      "bleu_score": 0.10754421249521595,
+      "generation_time": 0.3825223445892334,
+      "model_size_mb": 95.48583984375,
+      "Average_perplexity": 44.262991180419924
+    },
+    "layerwise_importance": {
+      "0": {
+        "delta_loss": 3.431014060974121,
+        "delta_perplexity": 1658.5293610833692,
+        "ablated_loss": 7.44657564163208,
+        "ablated_perplexity": 1713.9837898776984
+      },
+      "1": {
+        "delta_loss": 5.7768988609313965,
+        "delta_perplexity": 17842.835303628326,
+        "ablated_loss": 9.792460441589355,
+        "ablated_perplexity": 17898.289732422654
+      },
+      "2": {
+        "delta_loss": 5.380122661590576,
+        "delta_perplexity": 11980.86819447467,
+        "ablated_loss": 9.395684242248535,
+        "ablated_perplexity": 12036.322623269
+      },
+      "3": {
+        "delta_loss": 3.762528419494629,
+        "delta_perplexity": 2332.2555080521925,
+        "ablated_loss": 7.778090000152588,
+        "ablated_perplexity": 2387.709936846522
+      },
+      "4": {
+        "delta_loss": 4.917065143585205,
+        "delta_perplexity": 7519.682633477536,
+        "ablated_loss": 8.932626724243164,
+        "ablated_perplexity": 7575.137062271865
+      },
+      "5": {
+        "delta_loss": 2.8768157958984375,
+        "delta_perplexity": 929.2853049503093,
+        "ablated_loss": 6.8923773765563965,
+        "ablated_perplexity": 984.7397337446387
+      }
+    }
+  },
+  "Dataset : \"wikitext\" Quantaization : \"4bit\"": {
+    "evaluation_metrics": {
+      "Dataset": "wikitext",
+      "perplexity": 55.454428794329374,
+      "perplexity_time": 0.006713390350341797,
+      "bleu_score": 0.10754421249521595,
+      "generation_time": 0.37325429916381836,
+      "model_size_mb": 95.48583984375,
+      "Average_perplexity": 897.4529748442
+    },
+    "layerwise_importance": {
+      "0": {
+        "delta_loss": 3.431014060974121,
+        "delta_perplexity": 1658.5293610833692,
+        "ablated_loss": 7.44657564163208,
+        "ablated_perplexity": 1713.9837898776984
+      },
+      "1": {
+        "delta_loss": 5.7768988609313965,
+        "delta_perplexity": 17842.835303628326,
+        "ablated_loss": 9.792460441589355,
+        "ablated_perplexity": 17898.289732422654
+      },
+      "2": {
+        "delta_loss": 5.380122661590576,
+        "delta_perplexity": 11980.86819447467,
+        "ablated_loss": 9.395684242248535,
+        "ablated_perplexity": 12036.322623269
+      },
+      "3": {
+        "delta_loss": 3.762528419494629,
+        "delta_perplexity": 2332.2555080521925,
+        "ablated_loss": 7.778090000152588,
+        "ablated_perplexity": 2387.709936846522
+      },
+      "4": {
+        "delta_loss": 4.917065143585205,
+        "delta_perplexity": 7519.682633477536,
+        "ablated_loss": 8.932626724243164,
+        "ablated_perplexity": 7575.137062271865
+      },
+      "5": {
+        "delta_loss": 2.8768157958984375,
+        "delta_perplexity": 929.2853049503093,
+        "ablated_loss": 6.8923773765563965,
+        "ablated_perplexity": 984.7397337446387
+      }
+    }
+  }
+}

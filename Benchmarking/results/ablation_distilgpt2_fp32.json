@@ -1,0 +1,132 @@
+{
+  "base_loss": 4.949644088745117,
+  "base_perplexity": 141.1247271033643,
+  "results": {
+    "(0,)": {
+      "ablated_loss": 9.654804229736328,
+      "ablated_perplexity": 15596.537753640092,
+      "delta_loss": 4.705160140991211,
+      "delta_perplexity": 15455.413026536728
+    },
+    "(1,)": {
+      "ablated_loss": 15.88788890838623,
+      "ablated_perplexity": 7943693.555617437,
+      "delta_loss": 10.938244819641113,
+      "delta_perplexity": 7943552.430890334
+    },
+    "(2,)": {
+      "ablated_loss": 12.207488059997559,
+      "ablated_perplexity": 200283.28332784318,
+      "delta_loss": 7.257843971252441,
+      "delta_perplexity": 200142.15860073981
+    },
+    "(3,)": {
+      "ablated_loss": 14.125571250915527,
+      "ablated_perplexity": 1363507.8669373977,
+      "delta_loss": 9.17592716217041,
+      "delta_perplexity": 1363366.7422102944
+    },
+    "(4,)": {
+      "ablated_loss": 12.673291206359863,
+      "ablated_perplexity": 319110.0180124973,
+      "delta_loss": 7.723647117614746,
+      "delta_perplexity": 318968.89328539395
+    },
+    "(5,)": {
+      "ablated_loss": 8.296236038208008,
+      "ablated_perplexity": 4008.7551600688994,
+      "delta_loss": 3.3465919494628906,
+      "delta_perplexity": 3867.630432965535
+    },
+    "(0, 1)": {
+      "ablated_loss": 15.88788890838623,
+      "ablated_perplexity": 7943693.555617437,
+      "delta_loss": 10.938244819641113,
+      "delta_perplexity": 7943552.430890334
+    },
+    "(0, 2)": {
+      "ablated_loss": 12.207488059997559,
+      "ablated_perplexity": 200283.28332784318,
+      "delta_loss": 7.257843971252441,
+      "delta_perplexity": 200142.15860073981
+    },
+    "(0, 3)": {
+      "ablated_loss": 14.125571250915527,
+      "ablated_perplexity": 1363507.8669373977,
+      "delta_loss": 9.17592716217041,
+      "delta_perplexity": 1363366.7422102944
+    },
+    "(0, 4)": {
+      "ablated_loss": 12.673291206359863,
+      "ablated_perplexity": 319110.0180124973,
+      "delta_loss": 7.723647117614746,
+      "delta_perplexity": 318968.89328539395
+    },
+    "(0, 5)": {
+      "ablated_loss": 8.296236038208008,
+      "ablated_perplexity": 4008.7551600688994,
+      "delta_loss": 3.3465919494628906,
+      "delta_perplexity": 3867.630432965535
+    },
+    "(1, 2)": {
+      "ablated_loss": 12.207488059997559,
+      "ablated_perplexity": 200283.28332784318,
+      "delta_loss": 7.257843971252441,
+      "delta_perplexity": 200142.15860073981
+    },
+    "(1, 3)": {
+      "ablated_loss": 14.125571250915527,
+      "ablated_perplexity": 1363507.8669373977,
+      "delta_loss": 9.17592716217041,
+      "delta_perplexity": 1363366.7422102944
+    },
+    "(1, 4)": {
+      "ablated_loss": 12.673291206359863,
+      "ablated_perplexity": 319110.0180124973,
+      "delta_loss": 7.723647117614746,
+      "delta_perplexity": 318968.89328539395
+    },
+    "(1, 5)": {
+      "ablated_loss": 8.296236038208008,
+      "ablated_perplexity": 4008.7551600688994,
+      "delta_loss": 3.3465919494628906,
+      "delta_perplexity": 3867.630432965535
+    },
+    "(2, 3)": {
+      "ablated_loss": 14.125571250915527,
+      "ablated_perplexity": 1363507.8669373977,
+      "delta_loss": 9.17592716217041,
+      "delta_perplexity": 1363366.7422102944
+    },
+    "(2, 4)": {
+      "ablated_loss": 12.673291206359863,
+      "ablated_perplexity": 319110.0180124973,
+      "delta_loss": 7.723647117614746,
+      "delta_perplexity": 318968.89328539395
+    },
+    "(2, 5)": {
+      "ablated_loss": 8.296236038208008,
+      "ablated_perplexity": 4008.7551600688994,
+      "delta_loss": 3.3465919494628906,
+      "delta_perplexity": 3867.630432965535
+    },
+    "(3, 4)": {
+      "ablated_loss": 12.673291206359863,
+      "ablated_perplexity": 319110.0180124973,
+      "delta_loss": 7.723647117614746,
+      "delta_perplexity": 318968.89328539395
+    },
+    "(3, 5)": {
+      "ablated_loss": 8.296236038208008,
+      "ablated_perplexity": 4008.7551600688994,
+      "delta_loss": 3.3465919494628906,
+      "delta_perplexity": 3867.630432965535
+    },
+    "(4, 5)": {
+      "ablated_loss": 8.296236038208008,
+      "ablated_perplexity": 4008.7551600688994,
+      "delta_loss": 3.3465919494628906,
+      "delta_perplexity": 3867.630432965535
+    }
+  }
+}
